@@ -4,7 +4,7 @@ const AboutMe = () => (
         <div className="bg-white p-6 sm:p-8 rounded-lg shadow-lg">
             <div className="flex flex-col sm:flex-row items-center sm:items-start">
                 <img 
-                    src="public\profile_Melqui.webp" 
+                    src="\profile_Melqui.webp" 
                     alt="Foto de perfil" 
                     className="w-24 h-24 sm:w-32 sm:h-32 rounded-full mr-0 sm:mr-8 mb-4 sm:mb-0 object-cover border-4 border-indigo-200"
                     onError={(e) => { e.target.onerror = null; e.target.src="https://placehold.co/150x150/CCCCCC/FFFFFF?text=Error"; }}

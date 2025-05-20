@@ -13,7 +13,7 @@ const Payments = () => {
     };
 
     return (
-        <section id="pagos" className="content-section flex grow">
+        <section id="pagos" className="content-section">
             <h2 className="text-3xl font-bold mb-6 text-indigo-700 border-b-2 border-indigo-200 pb-2">Información de Pago</h2>
             <div className="bg-white p-6 sm:p-8 rounded-lg shadow-lg">
                 <h3 className="text-2xl font-semibold text-gray-800 mb-4">Tarifas y Métodos de Pago</h3>
@@ -53,7 +53,7 @@ const Payments = () => {
                             <li>Soporte continuo entre compañeros</li>
                         </ul>
                         <button 
-                        
+
                             onClick={handLeContratarPaquete}
                         className="w-full bg-green-500 hover:bg-green-600 text-white 
                         font-semibold py-2 px-4 rounded-md transition duration-150 ease-in-out 
